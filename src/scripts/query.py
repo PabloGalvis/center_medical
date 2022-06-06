@@ -275,7 +275,6 @@ INNER JOIN geo ON geo.fk_address= address.pk_address
         except Exception as e:
             print(e)
             return "prueba"
-<<<<<<< HEAD
 
 
     def insertar(self, tabla ,datoModificar):
@@ -321,5 +320,3 @@ INNER JOIN geo ON geo.fk_address= address.pk_address
         except Exception as e:
             print(e)
             return f"error {e}"
-=======
->>>>>>> 0921345423d050384904007e279042497eacabf4
